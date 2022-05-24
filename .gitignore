@@ -1,0 +1,6 @@
+# CMake output folder
+build
+
+# Default target folder
+bin
+lib
