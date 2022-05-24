@@ -1,7 +1,5 @@
-#### Usage
+#### aquai-planner
 
-复制到项目根目录。
-
-#### Documents
-
-
+- [ ] FSM
+- [ ] GOAP
+- [ ] HTN
