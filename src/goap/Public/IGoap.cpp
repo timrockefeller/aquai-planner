@@ -1,6 +1,7 @@
 #include "IGoap.h"
 
-int IGoap::run(){
+int IGoap::run()
+{
     static int i = 0;
     return i++;
 }
