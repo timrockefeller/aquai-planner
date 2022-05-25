@@ -1,6 +1,6 @@
 IK_AddTarget(
-    MODE EXE
     TEST
+    MODE EXE
     INC "./Public"
     INC_PVT "./Private"
     SRC "."
