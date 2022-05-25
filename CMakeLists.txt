@@ -12,3 +12,9 @@ IK_InitProject(${PROJECT_NAME})
 message(STATUS "[Project] ${PROJECT_NAME} ${PROJECT_VERSION}")
 
 IK_AddSubDirsRec(src)
+
+IK_Export(
+  TARGET
+  DIRECTORIES
+    "include"
+)

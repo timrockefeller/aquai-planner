@@ -113,7 +113,7 @@ include_directories(\"\${include_dir}\")\n")
 
   include(CMakePackageConfigHelpers)
   # generate the config file that is includes the exports
-  configure_package_config_file(${PROJECT_SOURCE_DIR}/config/Config.cmake.in
+  configure_package_config_file(${PROJECT_SOURCE_DIR}/cmake/config/Config.cmake.in
     "${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}Config.cmake"
     INSTALL_DESTINATION "${package_name}/cmake"
     NO_SET_AND_CHECK_MACRO
