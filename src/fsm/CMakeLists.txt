@@ -5,4 +5,5 @@ IK_AddTarget(
         "./Public"
     INC_PVT "./Private"
     SRC "."
+    LIB EnTT
 )

@@ -12,5 +12,5 @@ IK_InitProject(${PROJECT_NAME})
 message(STATUS "[Project] ${PROJECT_NAME} ${PROJECT_VERSION}")
 
 IK_AddSubDirsRec(src)
-
+add_subdirectory(deps)
 IK_Export(TARGET)

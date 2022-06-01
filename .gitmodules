@@ -1,0 +1,4 @@
+[submodule "deps/entt"]
+	path = deps/entt
+	url = git@github.com:skypjack/entt.git
+	branch = v3.10.x
